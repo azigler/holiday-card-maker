@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/fabric": "^5.3.10",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
