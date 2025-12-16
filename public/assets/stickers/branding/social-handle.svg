@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <g>
+    <!-- Background -->
+    <rect x="5" y="5" width="270" height="70" rx="35" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <!-- Icon -->
+    <circle cx="45" cy="40" r="20" fill="#7C3AED"/>
+    <text x="45" y="48" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">@</text>
+    <!-- Handle text -->
+    <text x="80" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#7C3AED" text-anchor="start">@DevInterrupted</text>
+  </g>
+</svg>
+

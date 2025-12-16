@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <g>
+    <!-- Leaves -->
+    <path d="M70,75 Q60,60 70,50 Q75,55 75,60 Q75,55 80,50 Q90,60 80,75 Z" fill="#43A047" stroke="#2E7D32" stroke-width="2"/>
+    <path d="M100,80 Q90,65 100,55 Q105,60 105,65 Q105,60 110,55 Q120,65 110,80 Z" fill="#43A047" stroke="#2E7D32" stroke-width="2"/>
+    <path d="M130,75 Q120,60 130,50 Q135,55 135,60 Q135,55 140,50 Q150,60 140,75 Z" fill="#43A047" stroke="#2E7D32" stroke-width="2"/>
+    <!-- Berries -->
+    <circle cx="85" cy="85" r="8" fill="#EF5350"/>
+    <circle cx="105" cy="90" r="8" fill="#EF5350"/>
+    <circle cx="115" cy="85" r="8" fill="#EF5350"/>
+  </g>
+</svg>
+

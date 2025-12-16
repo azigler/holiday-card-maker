@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <defs>
+    <filter id="woodGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" seed="2"/>
+      <feColorMatrix type="saturate" values="0.1"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#8B7355"/>
+  <rect width="400" height="400" fill="#8B7355" filter="url(#woodGrain)" opacity="0.6"/>
+  <!-- Wood grain lines -->
+  <path d="M0,50 Q100,48 200,52 T400,50" stroke="#6B5644" stroke-width="2" opacity="0.3" fill="none"/>
+  <path d="M0,150 Q100,148 200,152 T400,150" stroke="#6B5644" stroke-width="1.5" opacity="0.2" fill="none"/>
+  <path d="M0,250 Q100,252 200,248 T400,250" stroke="#6B5644" stroke-width="2" opacity="0.3" fill="none"/>
+  <path d="M0,350 Q100,348 200,352 T400,350" stroke="#6B5644" stroke-width="1" opacity="0.2" fill="none"/>
+  <!-- Scratches and wear -->
+  <line x1="50" y1="0" x2="55" y2="400" stroke="#5D4E3C" stroke-width="0.5" opacity="0.15"/>
+  <line x1="180" y1="0" x2="182" y2="400" stroke="#5D4E3C" stroke-width="0.3" opacity="0.1"/>
+  <line x1="320" y1="0" x2="318" y2="400" stroke="#5D4E3C" stroke-width="0.4" opacity="0.12"/>
+  <!-- Small marks -->
+  <circle cx="120" cy="80" r="2" fill="#5D4E3C" opacity="0.2"/>
+  <circle cx="280" cy="200" r="1.5" fill="#5D4E3C" opacity="0.15"/>
+  <circle cx="90" cy="320" r="1" fill="#5D4E3C" opacity="0.1"/>
+</svg>
+

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 100" width="250" height="100">
+  <g>
+    <!-- Wire -->
+    <path d="M10,30 Q40,40 70,30 T130,30 T190,30 T240,30" fill="none" stroke="#5D4037" stroke-width="2"/>
+    <!-- Lights -->
+    <ellipse cx="30" cy="45" rx="8" ry="12" fill="#EF5350" opacity="0.8"/>
+    <ellipse cx="70" cy="40" rx="8" ry="12" fill="#FFD54F" opacity="0.8"/>
+    <ellipse cx="110" cy="45" rx="8" ry="12" fill="#66BB6A" opacity="0.8"/>
+    <ellipse cx="150" cy="40" rx="8" ry="12" fill="#42A5F5" opacity="0.8"/>
+    <ellipse cx="190" cy="45" rx="8" ry="12" fill="#EF5350" opacity="0.8"/>
+    <ellipse cx="220" cy="40" rx="8" ry="12" fill="#FFD54F" opacity="0.8"/>
+    <!-- Glow -->
+    <circle cx="30" cy="45" r="12" fill="#EF5350" opacity="0.2"/>
+    <circle cx="70" cy="40" r="12" fill="#FFD54F" opacity="0.2"/>
+    <circle cx="110" cy="45" r="12" fill="#66BB6A" opacity="0.2"/>
+    <circle cx="150" cy="40" r="12" fill="#42A5F5" opacity="0.2"/>
+    <circle cx="190" cy="45" r="12" fill="#EF5350" opacity="0.2"/>
+    <circle cx="220" cy="40" r="12" fill="#FFD54F" opacity="0.2"/>
+  </g>
+</svg>
+

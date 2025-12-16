@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <g>
+    <!-- Box -->
+    <rect x="30" y="70" width="120" height="90" rx="5" fill="#EF5350" stroke="#C62828" stroke-width="2"/>
+    <!-- Lid -->
+    <rect x="25" y="55" width="130" height="20" rx="3" fill="#FFD54F" stroke="#FFC107" stroke-width="2"/>
+    <!-- Vertical ribbon -->
+    <rect x="80" y="55" width="20" height="105" fill="#FFD54F"/>
+    <!-- Horizontal ribbon -->
+    <rect x="25" y="105" width="130" height="20" fill="#FFD54F"/>
+    <!-- Bow -->
+    <ellipse cx="70" cy="45" rx="20" ry="15" fill="#FFC107"/>
+    <ellipse cx="110" cy="45" rx="20" ry="15" fill="#FFC107"/>
+    <circle cx="90" cy="45" r="12" fill="#FFC107"/>
+  </g>
+</svg>
+

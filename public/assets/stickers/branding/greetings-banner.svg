@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <g>
+    <!-- Banner ribbon -->
+    <path d="M20,30 L380,30 L380,70 L370,75 L380,80 L380,70 L20,70 L20,80 L30,75 L20,70 Z" fill="#7C3AED" stroke="#6D28D9" stroke-width="2"/>
+    <!-- Text -->
+    <text x="200" y="42" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFD54F" text-anchor="middle">Season's Greetings</text>
+    <text x="200" y="62" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#FFFFFF" text-anchor="middle">from Dev Interrupted</text>
+    <!-- Decorative stars -->
+    <polygon points="50,50 52,54 56,54 53,57 54,61 50,58 46,61 47,57 44,54 48,54" fill="#FFD54F"/>
+    <polygon points="350,50 352,54 356,54 353,57 354,61 350,58 346,61 347,57 344,54 348,54" fill="#FFD54F"/>
+  </g>
+</svg>
+

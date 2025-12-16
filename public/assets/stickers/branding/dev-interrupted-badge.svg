@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <g>
+    <!-- Badge circle -->
+    <circle cx="75" cy="75" r="70" fill="#7C3AED" stroke="#6D28D9" stroke-width="4"/>
+    <!-- Inner circle -->
+    <circle cx="75" cy="75" r="55" fill="none" stroke="#9333EA" stroke-width="2"/>
+    <!-- Text -->
+    <text x="75" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DEV</text>
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFD54F" text-anchor="middle">INTERRUPTED</text>
+  </g>
+</svg>
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="200" height="180">
+  <g>
+    <!-- Roof -->
+    <polygon points="100,30 30,90 170,90" fill="#8B4513" stroke="#5D4037" stroke-width="2"/>
+    <!-- Snow on roof -->
+    <path d="M35,90 Q100,80 165,90" fill="#FFFFFF" opacity="0.8"/>
+    <!-- House body -->
+    <rect x="40" y="90" width="120" height="80" fill="#D84315" stroke="#BF360C" stroke-width="2"/>
+    <!-- Door -->
+    <rect x="85" y="120" width="30" height="50" rx="3" fill="#5D4037"/>
+    <circle cx="108" cy="145" r="2" fill="#FFD54F"/>
+    <!-- Window -->
+    <rect x="55" y="105" width="20" height="20" rx="2" fill="#FFD54F" stroke="#FF8F00" stroke-width="1"/>
+    <line x1="65" y1="105" x2="65" y2="125" stroke="#FF8F00" stroke-width="1"/>
+    <line x1="55" y1="115" x2="75" y2="115" stroke="#FF8F00" stroke-width="1"/>
+    <!-- Chimney -->
+    <rect x="130" y="50" width="20" height="40" fill="#8B4513" stroke="#5D4037" stroke-width="2"/>
+    <!-- Smoke -->
+    <circle cx="140" cy="35" r="5" fill="#B0BEC5" opacity="0.5"/>
+    <circle cx="145" cy="28" r="6" fill="#B0BEC5" opacity="0.4"/>
+    <circle cx="138" cy="22" r="5" fill="#B0BEC5" opacity="0.3"/>
+  </g>
+</svg>
+

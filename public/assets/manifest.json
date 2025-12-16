@@ -1,0 +1,196 @@
+{
+  "version": "1.0.0",
+  "categories": ["snowflakes", "winter", "decorations", "branding"],
+  "assets": [
+    {
+      "id": "snowflake-01",
+      "name": "Delicate Snowflake",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-01.svg",
+      "tags": ["snowflake", "winter", "delicate", "detailed"]
+    },
+    {
+      "id": "snowflake-02",
+      "name": "Geometric Snowflake",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-02.svg",
+      "tags": ["snowflake", "winter", "geometric", "simple"]
+    },
+    {
+      "id": "snowflake-03",
+      "name": "Sparkly Snowflake",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-03.svg",
+      "tags": ["snowflake", "winter", "sparkle", "glitter"]
+    },
+    {
+      "id": "snowflake-04",
+      "name": "Chunky Snowflake",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-04.svg",
+      "tags": ["snowflake", "winter", "chunky", "bold"]
+    },
+    {
+      "id": "snowflake-05",
+      "name": "Crystalline Snowflake",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-05.svg",
+      "tags": ["snowflake", "winter", "crystal", "realistic"]
+    },
+    {
+      "id": "snowflake-06",
+      "name": "Snowflake Cluster",
+      "category": "snowflakes",
+      "path": "/assets/stickers/snowflakes/snowflake-06.svg",
+      "tags": ["snowflake", "winter", "cluster", "group"]
+    },
+    {
+      "id": "snow-drift",
+      "name": "Snow Drift",
+      "category": "winter",
+      "path": "/assets/stickers/winter/snow-drift.svg",
+      "tags": ["snow", "winter", "drift", "pile"]
+    },
+    {
+      "id": "icicles",
+      "name": "Icicles",
+      "category": "winter",
+      "path": "/assets/stickers/winter/icicles.svg",
+      "tags": ["ice", "winter", "icicles", "cold"]
+    },
+    {
+      "id": "mittens",
+      "name": "Mittens",
+      "category": "winter",
+      "path": "/assets/stickers/winter/mittens.svg",
+      "tags": ["mittens", "winter", "warm", "clothing"]
+    },
+    {
+      "id": "scarf",
+      "name": "Cozy Scarf",
+      "category": "winter",
+      "path": "/assets/stickers/winter/scarf.svg",
+      "tags": ["scarf", "winter", "warm", "clothing"]
+    },
+    {
+      "id": "hot-cocoa",
+      "name": "Hot Cocoa",
+      "category": "winter",
+      "path": "/assets/stickers/winter/hot-cocoa.svg",
+      "tags": ["cocoa", "winter", "warm", "drink", "marshmallows"]
+    },
+    {
+      "id": "snowman",
+      "name": "Snowman",
+      "category": "winter",
+      "path": "/assets/stickers/winter/snowman.svg",
+      "tags": ["snowman", "winter", "fun", "snow"]
+    },
+    {
+      "id": "snowboarder",
+      "name": "Snowboarder",
+      "category": "winter",
+      "path": "/assets/stickers/winter/snowboarder.svg",
+      "tags": ["snowboard", "winter", "sport", "activity"]
+    },
+    {
+      "id": "cabin",
+      "name": "Winter Cabin",
+      "category": "winter",
+      "path": "/assets/stickers/winter/cabin.svg",
+      "tags": ["cabin", "winter", "house", "cozy"]
+    },
+    {
+      "id": "star-gold",
+      "name": "Gold Star",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/star-gold.svg",
+      "tags": ["star", "gold", "festive", "decoration"]
+    },
+    {
+      "id": "star-silver",
+      "name": "Silver Star",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/star-silver.svg",
+      "tags": ["star", "silver", "festive", "decoration"]
+    },
+    {
+      "id": "bells",
+      "name": "Jingle Bells",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/bells.svg",
+      "tags": ["bells", "jingle", "festive", "decoration"]
+    },
+    {
+      "id": "bow",
+      "name": "Ribbon Bow",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/bow.svg",
+      "tags": ["bow", "ribbon", "festive", "decoration"]
+    },
+    {
+      "id": "holly",
+      "name": "Holly Sprig",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/holly.svg",
+      "tags": ["holly", "berries", "festive", "decoration"]
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/candle.svg",
+      "tags": ["candle", "flame", "festive", "light"]
+    },
+    {
+      "id": "gift",
+      "name": "Gift Box",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/gift.svg",
+      "tags": ["gift", "present", "festive", "box"]
+    },
+    {
+      "id": "lights",
+      "name": "String Lights",
+      "category": "decorations",
+      "path": "/assets/stickers/decorations/lights.svg",
+      "tags": ["lights", "string", "festive", "decoration"]
+    },
+    {
+      "id": "dev-interrupted-logo",
+      "name": "Dev Interrupted Logo",
+      "category": "branding",
+      "path": "/assets/stickers/branding/dev-interrupted-logo.svg",
+      "tags": ["logo", "branding", "dev interrupted", "podcast"]
+    },
+    {
+      "id": "dev-interrupted-badge",
+      "name": "Dev Interrupted Badge",
+      "category": "branding",
+      "path": "/assets/stickers/branding/dev-interrupted-badge.svg",
+      "tags": ["badge", "branding", "dev interrupted", "podcast"]
+    },
+    {
+      "id": "microphone",
+      "name": "Podcast Microphone",
+      "category": "branding",
+      "path": "/assets/stickers/branding/microphone.svg",
+      "tags": ["microphone", "podcast", "dev interrupted", "audio"]
+    },
+    {
+      "id": "greetings-banner",
+      "name": "Season's Greetings",
+      "category": "branding",
+      "path": "/assets/stickers/branding/greetings-banner.svg",
+      "tags": ["banner", "greetings", "text", "dev interrupted"]
+    },
+    {
+      "id": "social-handle",
+      "name": "Social Handle",
+      "category": "branding",
+      "path": "/assets/stickers/branding/social-handle.svg",
+      "tags": ["social", "handle", "dev interrupted", "twitter"]
+    }
+  ]
+}
+

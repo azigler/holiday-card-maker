@@ -1,0 +1,34 @@
+{
+  "name": "holiday-card-maker",
+  "version": "0.1.0",
+  "description": "Create festive winter holiday cards with drawing tools and stickers - Dev Interrupted 2025",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Andrew Zigler <andrewzigler@gmail.com> (https://www.andrewzigler.com/)",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/fabric": "^5.3.10",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  },
+  "dependencies": {
+    "fabric": "^6.9.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "zustand": "^5.0.9"
+  }
+}

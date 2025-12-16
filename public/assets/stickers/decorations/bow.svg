@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <g fill="#EF5350" stroke="#C62828" stroke-width="2">
+    <!-- Left loop -->
+    <ellipse cx="60" cy="75" rx="40" ry="50" transform="rotate(-20 60 75)"/>
+    <!-- Right loop -->
+    <ellipse cx="140" cy="75" rx="40" ry="50" transform="rotate(20 140 75)"/>
+    <!-- Center knot -->
+    <circle cx="100" cy="75" r="20"/>
+    <!-- Ribbons -->
+    <path d="M90,95 L70,140 L80,145 L95,100" fill="#EF5350"/>
+    <path d="M110,95 L130,140 L120,145 L105,100" fill="#EF5350"/>
+  </g>
+  <g fill="#FFCDD2" opacity="0.5">
+    <ellipse cx="55" cy="65" rx="15" ry="20"/>
+    <ellipse cx="145" cy="65" rx="15" ry="20"/>
+  </g>
+</svg>
+

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180" width="150" height="180">
+  <g>
+    <!-- Mug -->
+    <rect x="30" y="60" width="90" height="80" rx="5" fill="#EF5350" stroke="#C62828" stroke-width="2"/>
+    <ellipse cx="75" cy="60" rx="45" ry="10" fill="#8B4513"/>
+    <!-- Handle -->
+    <path d="M120,80 Q140,100 120,120" fill="none" stroke="#C62828" stroke-width="8" stroke-linecap="round"/>
+    <!-- Marshmallows -->
+    <circle cx="60" cy="55" r="8" fill="#FFFFFF"/>
+    <circle cx="75" cy="50" r="9" fill="#FFFFFF"/>
+    <circle cx="90" cy="55" r="8" fill="#FFFFFF"/>
+    <!-- Steam -->
+    <path d="M50,40 Q45,30 50,20" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.5"/>
+    <path d="M75,35 Q70,25 75,15" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.5"/>
+    <path d="M100,40 Q105,30 100,20" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
+

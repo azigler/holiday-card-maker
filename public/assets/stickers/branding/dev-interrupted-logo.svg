@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+  <g>
+    <!-- Background badge -->
+    <rect x="10" y="10" width="280" height="100" rx="15" fill="#7C3AED" stroke="#6D28D9" stroke-width="3"/>
+    <!-- Text -->
+    <text x="150" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DEV</text>
+    <text x="150" y="85" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFD54F" text-anchor="middle">INTERRUPTED</text>
+    <!-- Microphone icon -->
+    <circle cx="40" cy="60" r="12" fill="#FFD54F"/>
+    <rect x="36" y="72" width="8" height="15" fill="#FFD54F"/>
+    <line x1="32" y1="87" x2="48" y2="87" stroke="#FFD54F" stroke-width="3"/>
+  </g>
+</svg>
+

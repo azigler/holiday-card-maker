@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 200" width="120" height="200">
+  <g>
+    <!-- Microphone head -->
+    <ellipse cx="60" cy="60" rx="25" ry="35" fill="#7C3AED" stroke="#6D28D9" stroke-width="3"/>
+    <ellipse cx="60" cy="60" rx="20" ry="30" fill="#9333EA"/>
+    <!-- Microphone body -->
+    <rect x="50" y="95" width="20" height="60" rx="3" fill="#7C3AED" stroke="#6D28D9" stroke-width="2"/>
+    <!-- Base -->
+    <ellipse cx="60" cy="155" rx="30" ry="8" fill="#6D28D9"/>
+    <rect x="30" y="155" width="60" height="15" fill="#6D28D9"/>
+    <ellipse cx="60" cy="170" rx="35" ry="10" fill="#5B21B6"/>
+    <!-- Sound waves -->
+    <path d="M20,50 Q15,60 20,70" fill="none" stroke="#FFD54F" stroke-width="2" opacity="0.6"/>
+    <path d="M100,50 Q105,60 100,70" fill="none" stroke="#FFD54F" stroke-width="2" opacity="0.6"/>
+    <path d="M10,40 Q5,60 10,80" fill="none" stroke="#FFD54F" stroke-width="2" opacity="0.4"/>
+    <path d="M110,40 Q115,60 110,80" fill="none" stroke="#FFD54F" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>
+
