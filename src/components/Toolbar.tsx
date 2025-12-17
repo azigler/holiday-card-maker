@@ -1,4 +1,4 @@
-import { Pen, Brush, Highlighter, Eraser, Square, Circle, Star, Type, Sparkles, MousePointer2 } from 'lucide-react'
+import { Pen, Brush, Highlighter, Eraser, Square, Circle, Star, Type, Sparkles, MousePointer2, Smile } from 'lucide-react'
 import { useCanvasStore } from '../store/canvasStore'
 import { Tool, BrushType } from '../types/tools'
 import ColorPicker from './ColorPicker'
@@ -21,6 +21,7 @@ const Toolbar = () => {
     { id: Tool.CIRCLE, icon: Circle, label: 'Circle', color: 'bg-gradient-to-br from-teal-500 to-teal-600' },
     { id: Tool.STAR, icon: Star, label: 'Star', color: 'bg-gradient-to-br from-orange-500 to-orange-600' },
     { id: Tool.TEXT, icon: Type, label: 'Text', color: 'bg-gradient-to-br from-indigo-500 to-indigo-600' },
+    { id: Tool.EMOJI, icon: Smile, label: 'Emoji', color: 'bg-gradient-to-br from-yellow-500 to-yellow-600' },
   ]
 
   return (

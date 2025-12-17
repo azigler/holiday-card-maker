@@ -12,6 +12,7 @@ export enum Tool {
   STAR = 'star',
   TEXT = 'text',
   SELECT = 'select',
+  EMOJI = 'emoji',
 }
 
 /**

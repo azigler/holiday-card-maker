@@ -5,6 +5,7 @@ import { CANVAS_FORMATS } from '../utils/constants'
 import { Tool, BrushType } from '../types/tools'
 import { createBrushConfig, applyBrushConfig, createSparkleBrush } from '../utils/brushPresets'
 import LoadingSpinner from './LoadingSpinner'
+import EmojiPicker from './EmojiPicker'
 
 /**
  * Canvas Component
@@ -14,6 +15,8 @@ const Canvas = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const fabricCanvasRef = useRef<fabric.Canvas | null>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [showEmojiPicker, setShowEmojiPicker] = useState(false)
+  const [emojiPosition, setEmojiPosition] = useState({ x: 0, y: 0 })
   
   const {
     setCanvas,
@@ -131,6 +134,10 @@ const Canvas = () => {
         setupTextTool(fabricCanvas, toolProps)
         break
       
+      case Tool.EMOJI:
+        setupEmojiTool(fabricCanvas, setShowEmojiPicker, setEmojiPosition)
+        break
+      
       default:
         fabricCanvas.isDrawingMode = false
         fabricCanvas.selection = false
@@ -214,6 +221,17 @@ const Canvas = () => {
   return (
     <div className="relative">
       {isLoading && <LoadingSpinner />}
+      
+      {showEmojiPicker && (
+        <EmojiPicker
+          onSelect={(emoji) => {
+            addEmojiToCanvas(emoji, emojiPosition.x, emojiPosition.y, setActiveTool, fabricCanvasRef)
+            setShowEmojiPicker(false)
+          }}
+          onClose={() => setShowEmojiPicker(false)}
+        />
+      )}
+      
       <div 
         className="canvas-container bg-white shadow-2xl" 
         style={{
@@ -539,6 +557,58 @@ function setupTextTool(
     text.enterEditing()
     canvas.renderAll()
   })
+}
+
+/**
+ * Setup emoji tool
+ */
+function setupEmojiTool(
+  canvas: fabric.Canvas, 
+  setShowEmojiPicker: React.Dispatch<React.SetStateAction<boolean>>, 
+  setEmojiPosition: React.Dispatch<React.SetStateAction<{ x: number, y: number }>>
+) {
+  canvas.on('mouse:down', (o) => {
+    const pointer = canvas.getPointer(o.e)
+    setEmojiPosition({ x: pointer.x, y: pointer.y })
+    setShowEmojiPicker(true)
+  })
+}
+
+/**
+ * Add emoji to canvas as text object
+ */
+function addEmojiToCanvas(
+  emoji: string, 
+  x: number, 
+  y: number, 
+  setActiveTool: (tool: Tool) => void,
+  fabricCanvasRef: React.RefObject<fabric.Canvas>
+) {
+  if (!fabricCanvasRef.current) return
+
+  const emojiText = new fabric.IText(emoji, {
+    left: x,
+    top: y,
+    fontSize: 80,
+    fontFamily: 'Arial, sans-serif',
+    selectable: true,
+    hasControls: true,
+    originX: 'center',
+    originY: 'center',
+    shadow: new fabric.Shadow({
+      color: 'rgba(0,0,0,0.2)',
+      blur: 8,
+      offsetX: 2,
+      offsetY: 2,
+    }),
+  })
+
+  fabricCanvasRef.current.add(emojiText)
+  fabricCanvasRef.current.setActiveObject(emojiText)
+  fabricCanvasRef.current.renderAll()
+
+  // Switch to select tool so user can move it
+  setActiveTool(Tool.SELECT)
 }
 
 export default Canvas
